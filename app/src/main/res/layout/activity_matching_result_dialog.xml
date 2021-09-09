@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_background">
+
+    <LinearLayout
+        android:id="@+id/layoutMatchingRunning"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/matchingProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvMatchingStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Waiting for others to join..." />
+
+        <Button
+            android:id="@+id/btnCancelMatching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutMatchingDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvMatchingResultTitle"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tvMatchingOpponentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnStartOnlineGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Start Competition!"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

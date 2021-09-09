@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="background_image"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bg_login_1600x900" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/shake"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/matching_shake_phone_line"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="OR"
+            android:fontFamily="casual"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnShakeToJoin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/matching_shake_phone_line"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:layout_marginTop="90dp"-->
+<!--            android:layout_marginRight="60dp"-->
+<!--            android:layout_marginLeft="60dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:backgroundTint="@color/colorPrimary"/>-->
+
+        <Button
+            android:id="@+id/btnCreateNewGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="@string/matching_create_game_line"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:ems="12"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

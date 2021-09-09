@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413996487131",
+    "firebase_url": "https://monstermathforkids-default-rtdb.firebaseio.com",
+    "project_id": "monstermathforkids",
+    "storage_bucket": "monstermathforkids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413996487131:android:5e0d6275e40a31830e17fe",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.monstermath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413996487131-cjrqqgekdrgl41ed61oct1uhsof8vi5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE0Rw6IRD1ZQydg_ARH3GdC-mwiyFbOnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413996487131-cjrqqgekdrgl41ed61oct1uhsof8vi5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
